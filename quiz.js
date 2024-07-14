@@ -6,9 +6,9 @@ function checkAnswer () {
     const feedbackElement = document.getElementById('feedback');
 
     if (userAnswer === correctAnswer) {
-        feedbackElement.textContent = 'Correct Answer. Good Job!'
+        feedbackElement.textContent = 'Correct! Well done.'
     } else {
-        feedbackElement.textContent = 'Wrong Answer. Try again'
+        feedbackElement.textContent = "That's incorrect. Try again!"
     };
 }
 
