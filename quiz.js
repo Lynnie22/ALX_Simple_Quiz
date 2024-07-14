@@ -5,7 +5,7 @@ function checkAnswer () {
 
     const feedbackElement = document.getElementById('feedback');
 
-    if(userAnswer === correctAnswer) {
+    if (userAnswer === correctAnswer) {
         feedbackElement.textContent = 'Correct Answer. Good Job!'
     } else {
         feedbackElement.textContent = 'Wrong Answer. Try again'
